@@ -1,0 +1,72 @@
+Claude Code Projects/
+│
+├── 📄 CLAUDE.md                              # Architecture principles
+├── 📄 README.md                              # Main documentation
+├── 📄 SETUP.md                               # Setup instructions
+│
+├── 🎯 PITCHING_QUICKSTART.md                 # ← START HERE for pitching!
+├── 📋 PITCHING_SYSTEM_SUMMARY.md             # Complete pitching system overview
+│
+├── 📁 directives/                            # Layer 1: What to do (SOPs)
+│   ├── README.md                             # How to write directives
+│   ├── README_PITCHING.md                    # Pitching system documentation
+│   │
+│   ├── 🎯 Client Pitching System:
+│   ├── research_client.md                    # Research process
+│   ├── generate_pitch_email.md               # Email generation process
+│   └── client_pitching_workflow.md           # Complete workflow guide
+│   │
+│   └── 📧 Email Example:
+│       └── example_send_email.md             # Email sending example
+│
+├── 📁 execution/                             # Layer 3: How to do it (Scripts)
+│   ├── README.md                             # Script documentation
+│   │
+│   ├── 🎯 Pitching Tools:
+│   ├── generate_pitch_email.py               # Email generation script
+│   └── send_email.py                         # Email sending script
+│
+├── 📁 .tmp/                                  # Temporary files (regenerated)
+│   └── clients/                              # Client research & emails
+│       ├── client_profile_template.json      # Template structure
+│       ├── [company]_profile.json            # Generated research
+│       └── [company]_pitch_email_*.txt       # Generated emails
+│
+├── 📁 MCP Gmail/                             # Gmail integration
+│   └── mcp-gmail/                            # MCP Gmail package
+│
+├── 🔐 .env.example                           # Environment template
+├── 🚫 .gitignore                             # Git ignore rules
+├── 📦 requirements.txt                       # Python dependencies
+│
+└── 🔒 Not committed (create these):
+    ├── .env                                  # Your API keys
+    ├── credentials.json                      # Google OAuth
+    └── token.json                            # Google OAuth token
+
+═══════════════════════════════════════════════════════════════════
+
+Key Files for Client Pitching:
+─────────────────────────────────────────────────────────────────
+📖 Documentation:
+   • PITCHING_QUICKSTART.md           ← Read this first!
+   • PITCHING_SYSTEM_SUMMARY.md       ← Complete overview
+   • directives/client_pitching_workflow.md
+
+🔧 Tools:
+   • directives/research_client.md
+   • directives/generate_pitch_email.md
+   • execution/generate_pitch_email.py
+
+📂 Data:
+   • .tmp/clients/                    ← All research & emails saved here
+
+═══════════════════════════════════════════════════════════════════
+
+Quick Commands:
+─────────────────────────────────────────────────────────────────
+"I want to pitch [Company Name]"     → Full workflow
+"Research [Company]"                  → Research only
+"Generate pitch for [Company]"        → Email generation
+"Send to [email]"                     → Send email
+

@@ -1,0 +1,21 @@
+# Core dependencies
+python-dotenv==1.0.0
+
+# Google APIs
+google-auth==2.27.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+google-api-python-client==2.116.0
+
+# HTTP and requests
+requests==2.31.0
+httpx==0.26.0
+
+# Data processing
+pandas==2.2.0
+
+# Optional: Modal for webhooks
+modal==0.56.0
+
+# Optional: Slack notifications
+slack-sdk==3.26.2

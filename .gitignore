@@ -1,0 +1,58 @@
+# Environment and credentials
+.env
+token.json
+credentials.json
+client_secret_*.json
+*.apps.googleusercontent.com.json
+*secret*.json
+
+# Nested scaffold repo (separate git repo)
+claude-code-projects/
+
+# Temporary files - regenerated as needed
+.tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# MCP Gmail specific
+MCP Gmail/.venv/
+MCP Gmail/mcp-gmail/.venv/
